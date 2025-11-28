@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portafolio - Paola</title>
+</head>
+<body>
+  <!-- header, cabecera -->
+  <header>
+      <h1>Paola Domínguez Pérez</h1>
+      <hr><!-- linea divisoria -->
+      <p>Diseñador/a &amp; Desarrollador/a — Portafolio y CV</p>
+  </header>
+  <!-- navegación principal, nav, navegacion ul, lista desordenada li, lista a, es para enlace -->
+  <nav>
+      <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+  </nav>
+
+  <main class="container" id="main">
+    <!-- sobre mí -->
+    <section id="sobre-mi">
+      <h2 id="sobre-mi-titulo">Sobre mí</h2> 
+      <div>
+        <!-- imagen de perfil, etiqueta figura para contener cualquier elemento multimedia y figcaption para pie ilustración -->
+        <figure>
+        <img src="media/img/foto perfil.jpeg" alt="Foto de Tu Nombre" width="170" height="120">
+        <div>
+          <p>Soy Paola, profesional en Diseño Interactivo. Me especializo en crear soluciones visuales y experiencias usables.</p>
+          <p>Soy una persona proactiva y creativa con interés en el diseño y el desarrollo digital. Me gusta crear soluciones visuales que combinen estética y funcionalidad, siempre buscando mejorar la experiencia del usuario. Me caracterizo por mi responsabilidad, compromiso y ganas de seguir aprendiendo y creciendo profesionalmente.</p>
+          <!-- cita famosa e inspiradora -->
+          <blockquote>
+            <p>«El diseño es el pensamiento hecho visual.» — Saul Bass</p>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+    <!-- habilidades -->
+    <section id="habilidades">
+      <h2 id="habilidades-titulo">Habilidades</h2>
+      <ul>
+        <li>Diseño gráfico</li>
+        <li>UX / UI</li>
+        <li>HTML5, CSS3, JavaScript básico</li>
+        <li>Prototipado y animación</li>
+      </ul>
+    </section>
+
+    <!-- proyectos -->
+    <section id="proyectos" aria-labelledby="proyectos-titulo">
+      <h2 id="proyectos-titulo">Proyectos</h2>
+
+      <div>
+        <!-- proyecto 1 -->
+        <article aria-labelledby="p1-titulo">
+          <h3 id="p1-titulo">Diseño de Identidad</h3>
+          <figure>
+            <img src="media/img/Logo-Mockup.jpg" alt="Mockup de logo proyecto" width="500" height="350">
+            <figcaption>Creación de identidad visual para startup tecnológica.</figcaption>
+          </figure>
+          <p>Este proyecto se centra en el desarrollo de una identidad visual sólida y coherente para una marca moderna. La propuesta incluye la creación del logotipo, selección de tipografías y definición de una paleta cromática que transmite profesionalismo, creatividad y confianza.</p>
+          <p>El diseño busca reflejar los valores de la marca y fortalecer su presencia visual, garantizando una aplicación consistente en distintos soportes como papelería corporativa, material promocional y entornos digitales.</p>
+        </article>
+
+        <!-- proyecto 2 -->
+        <article aria-labelledby="p2-titulo">
+          <h3 id="p2-titulo">Animación de Presentación</h3>
+          <figure>
+            <video src="media/vid/video-practica.mp4" controls width="500" height="350">
+              Tu navegador no soporta el elemento <code>video</code>.
+              <a href="media/vid/video-practica.mp4" download>Descargar vídeo</a>
+            </video>
+            <figcaption>Animación y montaje para logo.</figcaption>
+          </figure>
+          <p>Este proyecto consiste en una animación dinámica creada para presentar de forma visual e impactante los valores y servicios de una marca. A través de transiciones suaves, ritmo visual equilibrado y elementos gráficos modernos, el video busca captar la atención del espectador y transmitir el mensaje de manera clara y profesional.</p>
+          <p> La animación está pensada para su uso en presentaciones digitales, redes sociales y material promocional, reforzando la identidad visual y mejorando la comunicación con el público objetivo.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+  <hr>
+
+  <!-- pie, contacto -->
+  <footer id="contacto" class="container" role="contentinfo">
+    <h2>Contacto</h2>
+    <!-- etiqueta address y enlaces funcionales -->
+    <address>
+      Email: <a href="mailto:paola@gmail.com">paola@gmail.com</a><br>
+      Teléfono: <a href="tel:+34123456789">+34 123 456 789</a><br>
+      GitHub: <a href="https://github.com/usuario" target="_blank" rel="noopener">github.com/usuario</a><br>
+      Redes Sociales: <a target="_blank" href="https://instagram.com/">Instagram</a>
+    </address>
+    <p>© Paola Domíguez</p>
+  </footer>
+</body>
+</html>
